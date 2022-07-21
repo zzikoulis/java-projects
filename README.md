@@ -1,2 +1,2 @@
 # java-projects
-Coding Factory Java Projects
+Java Projects
