@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Employee Deleted</title>
+</head>
+<body>
+
+    <p>Employee: { <span th:text="${employee.id}"/>, <span th:text="${employee.firstname}"/>, <span th:text="${employee.lastname}"/> } deleted successfully</p>
+    <br>
+    <a href="/main">Return to Main Menu</a>
+
+</body>
+</html>

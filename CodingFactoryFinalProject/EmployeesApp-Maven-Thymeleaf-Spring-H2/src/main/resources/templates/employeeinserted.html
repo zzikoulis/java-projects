@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Employee Inserted</title>
+</head>
+<body>
+	<h1>Employee inserted successfully!</h1>
+	<div>
+		<p>Firstname: <span th:text="${insertedemployee.firstname}"></span></p>
+		<p>Lastname: <span th:text="${insertedemployee.lastname}"></span></p>
+	</div>
+
+	<a href="/main">Return to Main Menu</a>
+</body>
+</html>

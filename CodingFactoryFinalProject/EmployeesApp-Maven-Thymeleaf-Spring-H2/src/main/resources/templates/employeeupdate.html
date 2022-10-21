@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+    <title>Update Employee Form</title>
+</head>
+<body>
+
+    <div>
+        <form method="POST" action="/update">
+            <input type="text" name="id" th:value="${id}" readonly><br>
+            <input type="text" name="firstname" th:value="${firstname}"><br>
+            <input type="text" name="lastname" th:value="${lastname}"><br><br>
+            <button type="submit">Update Employee</button>
+        </form>
+    </div>
+    <br>
+    <a href="/main">Return to Main Menu</a>
+
+    <div class="center">
+        <p th:text="${emptyError}"></p>
+    </div>
+
+</body>
+</html>
